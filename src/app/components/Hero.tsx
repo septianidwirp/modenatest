@@ -1,4 +1,5 @@
-export default function HeroSection() {
+"use client";
+export default function Hero() {
   return (
     <section className="relative w-full h-[600px] overflow-hidden">
       {/* Background Image with Gradient Overlay */}

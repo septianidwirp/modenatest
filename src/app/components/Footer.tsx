@@ -1,90 +1,180 @@
-import React from "react";
+"use client";
 
-const Footer = () => {
+export default function FooterSection() {
+  const corporateLinks = [
+    "Newsroom",
+    "About Us",
+    "Sustainability",
+    "Find a Store"
+  ];
+
+  const productLinks = [
+    "Cooking",
+    "Cooling",
+    "Cleaning",
+    "Professional Cooking"
+  ];
+
+  const serviceLinks = [
+    "Service Center",
+    "Warranty Registration",
+    "Contact Service"
+  ];
+
+  const programLinks = [
+    "TradeIn",
+    "Rental",
+    "CIAO",
+    "Product registration",
+    "Modena Agent"
+  ];
+
+  const socialIcons = [
+    { name: "X", icon: "𝕏" },
+    { name: "Instagram", icon: "📷" },
+    { name: "YouTube", icon: "▶" },
+    { name: "Facebook", icon: "f" },
+    { name: "TikTok", icon: "♪" }
+  ];
+
   return (
-    <footer className="bg-[#111111] text-white">
-  <div className="bg-[#1C1C1C] py-12">
-    <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-      <div>
-        <h3 className="text-2xl font-semibold">Dapatkan Update Terbaru</h3>
-        <p className="text-gray-300 mt-2">
-          Jadi yang pertama tahu tentang penawaran, produk, dan info terbaru dari MODENA.
-        </p>
-      </div>
-      <form action="#" method="POST" className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-        <input type="email" placeholder="Masukkan alamat email Anda"
-               className="px-4 py-3 w-full sm:w-80 rounded-md text-black" required/>
-        <button type="submit"
-                className="bg-white text-black font-semibold px-6 py-3 rounded-md hover:bg-gray-300">
-          Berlangganan
-        </button>
-      </form>
-    </div>
-  </div>
-
-  <div className="bg-[#111111] border-t border-b border-gray-700 py-4">
-    <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 px-4">
-      <div className="flex items-center gap-2">
-        <img src="https://cdn.modena.com/static/version1759114222/frontend/Modena/default/id_ID/images/globe.svg"
-             alt="location" className="w-5 h-5"/>
-        <span className="font-medium">Indonesia</span>
+    <footer className="bg-gray-900 text-white">
+      {/* Newsletter Section */}
+      <div className="border-b border-gray-700">
+        <div className="max-w-7xl mx-auto px-6 py-12">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            <div>
+              <h3 className="text-2xl font-bold mb-2">Get in the Loop</h3>
+              <p className="text-gray-400 text-sm">
+                Be the first to know all the best offers, news, and new products from MODENA.
+              </p>
+            </div>
+            <div className="flex gap-3 w-full md:w-auto">
+              <input
+                type="email"
+                placeholder="Enter Email"
+                className="bg-gray-800 border border-gray-700 px-4 py-3 rounded text-white placeholder-gray-500 focus:outline-none focus:border-gray-600 flex-1 md:w-80"
+              />
+              <button className="bg-white text-gray-900 px-8 py-3 rounded font-semibold hover:bg-red-600 hover:text-white transition-all duration-300">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="flex gap-4 text-xl">
-        <a href="https://x.com/modenaindonesia" target="_blank"><i className="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/company/modenagroup/" target="_blank"><i className="fab fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/ModenaIndonesia" target="_blank"><i className="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/modenaindonesia/" target="_blank"><i className="fab fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@modena.indonesia" target="_blank">
-          <img src="https://cdn.modena.com/media/wysiwyg/Tiktok.png" alt="TikTok" className="w-6 h-6"/>
-        </a>
+      {/* Main Footer Content */}
+      <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="flex flex-col md:flex-row justify-between gap-12">
+          {/* Logo Section - Left */}
+          <div className="flex-shrink-0">
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold tracking-wider mb-4">MODENA</h2>
+              <p className="text-gray-400 text-sm">
+                Crafting Comfort and Convenience
+              </p>
+            </div>
+          </div>
+
+          {/* Links Grid - Center/Right */}
+          <div className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+            {/* Corporate */}
+            <div>
+              <h4 className="font-semibold mb-4 text-white">Corporate</h4>
+              <ul className="space-y-3">
+                {corporateLinks.map((link, index) => (
+                  <li key={index}>
+                    <a href="#" className="text-gray-400 text-sm hover:text-red-600 transition-colors">
+                      {link}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Product */}
+            <div>
+              <h4 className="font-semibold mb-4 text-white">Product</h4>
+              <ul className="space-y-3">
+                {productLinks.map((link, index) => (
+                  <li key={index}>
+                    <a href="#" className="text-gray-400 text-sm hover:text-red-600 transition-colors">
+                      {link}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Service */}
+            <div>
+              <h4 className="font-semibold mb-4 text-white">Service</h4>
+              <ul className="space-y-3">
+                {serviceLinks.map((link, index) => (
+                  <li key={index}>
+                    <a href="#" className="text-gray-400 text-sm hover:text-red-600 transition-colors">
+                      {link}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Program */}
+            <div>
+              <h4 className="font-semibold mb-4 text-white">Program</h4>
+              <ul className="space-y-3">
+                {programLinks.map((link, index) => (
+                  <li key={index}>
+                    <a href="#" className="text-gray-400 text-sm hover:text-red-600 transition-colors">
+                      {link}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Section - Language and Social Icons */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mt-12 pt-8 border-t border-gray-800">
+          <div className="flex items-center gap-2 text-gray-400 text-sm mb-4 md:mb-0">
+            <span className="w-5 h-5 border border-gray-600 rounded-full flex items-center justify-center text-xs">🌍</span>
+            <span>Indonesia, EN</span>
+          </div>
+          
+          <div className="flex gap-4">
+            {socialIcons.map((social, index) => (
+              <a
+                key={index}
+                href="#"
+                className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors text-lg"
+                aria-label={social.name}
+              >
+                {social.icon}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div className="container mx-auto py-12 px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-    <div>
-      <img src="https://cdn.modena.com/media/wysiwyg/footer/logo-footer.png" alt="Modena Logo" className="w-44 mb-4"/>
-    </div>
-
-    <div>
-      <h4 className="font-semibold mb-4">Korporasi</h4>
-      <ul className="space-y-2 text-gray-400">
-        <li><a href="/">Korporasi</a></li>
-        <li><a href="/id_id/blog/">Berita</a></li>
-        <li><a href="/id_id/about-us">Tentang Kami</a></li>
-        <li><a href="https://group.modena.com/our-values/sustainability">Keberlanjutan</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h4 className="font-semibold mb-4">Support</h4>
-      <ul className="space-y-2 text-gray-400">
-        <li><a href="https://www.modena.com/id_id/support-main-page/">Kontak Kami</a></li>
-        <li><a href="https://www.modena.com/id_id/support-service-center/">Service Center</a></li>
-        <li><a href="https://www.modena.com/id_id/trade-in/">Registrasi Produk</a></li>
-        <li><a href="https://www.modena.com/id_id/contract-service/">Kontrak Servis</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h4 className="font-semibold mb-4">Informasi</h4>
-      <ul className="space-y-2 text-gray-400">
-        <li><a href="https://www.modena.com/id_id/privacy-policy/">Kebijakan Privasi</a></li>
-        <li><a href="https://www.modena.com/id_id/cookie-policy/">Kebijakan Cookie</a></li>
-        <li><a href="https://www.modena.com/id_id/terms-and-conditions/">Syarat & Ketentuan</a></li>
-        <li><a href="https://www.modena.com/id_id/whistleblower">Whistleblower</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div className="bg-[#111111] border-t border-gray-700">
-    <div className="container mx-auto py-6 text-center text-gray-500 text-sm">
-      © 2025 MODENA. All Rights Reserved
-    </div>
-  </div>
-</footer>
-
+      {/* Bottom Bar */}
+      <div className="border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-6 py-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 text-xs">
+            <div className="flex flex-wrap gap-4">
+              <a href="#" className="hover:text-red-600 transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-red-600 transition-colors">Cookie Policy</a>
+              <a href="#" className="hover:text-red-600 transition-colors">Terms and Conditions</a>
+              <a href="#" className="hover:text-red-600 transition-colors">Sitemap</a>
+              <a href="#" className="hover:text-red-600 transition-colors">Imprint</a>
+            </div>
+            <div>
+              Copyright 2025 MODENA. All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 }
-export default Footer;
