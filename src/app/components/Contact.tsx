@@ -14,7 +14,7 @@ export default function Contact() {
           </h1>
 
           <p className="text-gray-600 text-lg leading-relaxed">
-            It's the smarter choice for busy spaces: less downtime, fewer service costs, more peace of mind.
+            Its the smarter choice for busy spaces: less downtime, fewer service costs, more peace of mind.
           </p>
 
           <button className="bg-white border-2 border-gray-900 text-gray-900 px-8 py-3 rounded font-semibold hover:bg-gray-900 hover:text-white transition-all duration-300">

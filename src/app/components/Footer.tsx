@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 export default function FooterSection() {
   const corporateLinks = [
     "Newsroom",
@@ -66,25 +67,25 @@ export default function FooterSection() {
           </div>
 
           <div className="flex gap-4">
-            <a href="#" aria-label="X" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
+            <Link href="#" aria-label="X" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
               <img src="/x.svg" alt="X" className="w-5 h-5 object-contain" />
-            </a>
+            </Link>
 
-            <a href="#" aria-label="Instagram" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
+            <Link href="#" aria-label="Instagram" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
               <img src="/ig.svg" alt="Instagram" className="w-5 h-5 object-contain" />
-            </a>
+            </Link>
 
-            <a href="#" aria-label="YouTube" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
+            <Link href="#" aria-label="YouTube" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
               <img src="/yt.svg" alt="YouTube" className="w-5 h-5 object-contain" />
-            </a>
+            </Link>
 
-            <a href="#" aria-label="Facebook" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
+            <Link href="#" aria-label="Facebook" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
               <img src="/fb.svg" alt="Facebook" className="w-5 h-5 object-contain" />
-            </a>
+            </Link>
 
-            <a href="#" aria-label="TikTok" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
+            <Link href="#" aria-label="TikTok" className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-red-600 transition-colors">
               <img src="/tk.svg" alt="TikTok" className="w-5 h-5 object-contain" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -93,14 +94,14 @@ export default function FooterSection() {
         <div className="flex flex-col md:flex-row justify-between gap-12">
           <div className="flex-shrink-0">
             <div className="mb-8">
-              <a href="/" className="flex items-center">
+              <Link href="/" className="flex items-center">
                   <Image
                     src="/logo3.svg"
                     alt="MODENA Logo"
                     width={120}   
                     height={40}   
                     className="h-10"/>
-                  </a>
+              </Link>
               <p className="text-gray-400 text-sm mt-10">
                 Crafting Comfort and Convenience
               </p>
@@ -129,12 +130,12 @@ export default function FooterSection() {
               <ul className="space-y-3">
                 {productLinks.map((link, index) => (
                   <li key={index}>
-                    <a
+                    <Link
                       href="#"
                       className="text-gray-400 text-sm hover:text-red-600 transition-colors"
                     >
                       {link}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -145,12 +146,12 @@ export default function FooterSection() {
               <ul className="space-y-3">
                 {serviceLinks.map((link, index) => (
                   <li key={index}>
-                    <a
+                    <Link
                       href="#"
                       className="text-gray-400 text-sm hover:text-red-600 transition-colors"
                     >
                       {link}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -161,12 +162,12 @@ export default function FooterSection() {
               <ul className="space-y-3">
                 {programLinks.map((link, index) => (
                   <li key={index}>
-                    <a
+                    <Link
                       href="#"
                       className="text-gray-400 text-sm hover:text-red-600 transition-colors"
                     >
                       {link}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -179,24 +180,24 @@ export default function FooterSection() {
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 text-xs">
             <div className="flex flex-wrap gap-4">
-              <a href="#" className="hover:text-red-600 transition-colors">
+              <Link href="#" className="hover:text-red-600 transition-colors">
                 Privacy Policy
-              </a>
-              <a href="#" className="hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="hover:text-red-600 transition-colors">
                 Cookie Policy
-              </a>
-              <a href="#" className="hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="hover:text-red-600 transition-colors">
                 Terms and Conditions
-              </a>
-              <a href="#" className="hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="hover:text-red-600 transition-colors">
                 Sitemap
-              </a>
-              <a href="#" className="hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="hover:text-red-600 transition-colors">
                 Imprint
-              </a>
-              <a href="#" className="hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="hover:text-red-600 transition-colors">
                 Indonesia
-              </a>
+              </Link>
             </div>
             <div>Copyright 2025 MODENA. All Rights Reserved</div>
           </div>

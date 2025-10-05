@@ -18,7 +18,7 @@ export default function CTASection() {
                 Ready to Go?
               </h2>
               <p className="text-white text-3xl md:text-4xl font-bold">
-                Let's Get Started!
+                Lets Get Started!
               </p>
               <button className="bg-white text-cyan-500 px-8 py-3 rounded font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg">
                 Subscribe Now

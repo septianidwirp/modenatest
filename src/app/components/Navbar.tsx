@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -68,7 +69,7 @@ const Navbar = () => {
         <div className="max-w-[1440px] mx-auto px-6">
           <div className="flex items-center justify-between h-20">
             <div className="flex-shrink-0">
-              <a href="/" className="flex items-center">
+              <Link href="/" className="flex items-center">
                 <Image
                   src="/logo.svg"
                   alt="MODENA Logo"
@@ -76,31 +77,31 @@ const Navbar = () => {
                   height={40}   
                   className="h-10"
                 />
-              </a>
+              </Link>
             </div>
 
             <nav className="hidden lg:flex items-center gap-8 flex-1 justify-center">
-              <a href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
+              <Link href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
                 Home
-              </a>
-              <a href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
                 Professional
-              </a>
-              <a href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
                 Seamless IoT
-              </a>
-              <a href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
                 Energy
-              </a>
-              <a href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
                 Program
-              </a>
-              <a href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
                 Support
-              </a>
-              <a href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-[15px] font-normal text-gray-900 hover:text-red-600 transition-colors">
                 Pay
-              </a>
+              </Link>
             </nav>
 
 
@@ -165,24 +166,24 @@ const Navbar = () => {
 
 
             <nav className="flex items-center gap-8">
-              <a href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
+              <Link href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
                 Smart Lifestyle
-              </a>
-              <a href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
                 Our Products
-              </a>
-              <a href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
                 How to Subscribe
-              </a>
-              <a href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
                 B2B
-              </a>
-              <a href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
+              </Link>
+              <Link href="#" className="text-sm text-gray-900 hover:text-red-600 transition-colors">
                 FAQ
-              </a>
-              <a href="#" className="bg-gray-900 text-white px-6 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors">
+              </Link>
+              <Link href="#" className="bg-gray-900 text-white px-6 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors">
                 Contact Us
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -191,30 +192,30 @@ const Navbar = () => {
       {/* Mobile Navigation*/}
       <div className="lg:hidden hidden bg-white border-t border-gray-200">
         <nav className="px-6 py-4 space-y-2">
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Home
-          </a>
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          </Link>
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Professional
-          </a>
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          </Link>
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Seamless IoT
-          </a>
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          </Link>
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Energy
-          </a>
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          </Link>
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Subscription
-          </a>
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          </Link>
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Program
-          </a>
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          </Link>
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Support
-          </a>
-          <a href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
+          </Link>
+          <Link href="#" className="block py-2 text-sm font-normal text-gray-900 hover:text-red-600 transition-colors">
             Pay
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

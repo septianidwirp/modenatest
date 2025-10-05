@@ -92,7 +92,7 @@ export default function HowToSubs() {
                 <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
                   <h3 className="text-white text-base font-bold mb-2">Verification Process</h3>
                   <p className="text-white text-sm leading-relaxed">
-                    We&apos;tll review the information <br />
+                    We will review the information <br />
                     provided to confirm your eligibility.
                   </p>
                 </div>
@@ -149,7 +149,7 @@ export default function HowToSubs() {
                 <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
                   <h3 className="text-white text-base font-bold mb-2">You're All Set</h3>
                   <p className="text-white text-sm leading-relaxed">
-                    We&apos;tll notify you once <br />
+                    We will notify you once <br />
                     everything's ready to go.
                   </p>
                 </div>
