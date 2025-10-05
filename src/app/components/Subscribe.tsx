@@ -21,7 +21,7 @@ export default function Subscribe() {
         {/* Card 1 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[260px] h-[438px]">
           <Image
-            src="/images/Rectangle1.png" 
+            src="/images/subs1.png" 
             alt="Multiple Plans Available"
             width={260}
             height={438}

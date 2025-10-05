@@ -15,7 +15,7 @@ export default function CTASection() {
 
           <div className="bg-cyan-400 flex flex-col items-center justify-center p-12 text-center">
             <h2 className="text-white text-4xl md:text-5xl font-bold mb-2">
-              Ready to Go?
+              R
             </h2>
             <p className="text-white text-3xl md:text-4xl font-bold mb-8">
               Let's Get Started!
