@@ -4,194 +4,188 @@ export default function HowToSubs() {
   return (
     <section className="bg-white py-20 px-6">
       <div className="max-w-[1200px] mx-auto">
-        {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
             How to Subscribe
           </h2>
         </div>
 
-        {/* Steps Container */}
         <div className="relative">
-          {/* Connection Line */}
-          <div className="absolute top-[30px] left-[10%] right-[10%] h-1 bg-gradient-to-r from-cyan-500 via-cyan-500 to-cyan-500 hidden lg:block"></div>
-
-          {/* Steps Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            {/* Step 1 - Apply Online */}
-            <div className="relative">
-              {/* Circle with number */}
-              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-10">
-                <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white text-2xl font-bold">1</span>
+          <div className="flex flex-col lg:flex-row items-start justify-center gap-8 lg:gap-0">
+            
+            {/* Step 1 */}
+            <div className="relative lg:-mr-12 z-10">
+              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
+                <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+                  <span className="text-white text-sm font-bold">1</span>
                 </div>
               </div>
 
-              {/* Card */}
-              <div className="mt-12 rounded-2xl overflow-hidden shadow-lg bg-black h-[280px] relative group">
+              <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=800&auto=format&fit=crop"
+                  src="/images/step1.png"
                   alt="Apply Online"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
                 
-                {/* Content */}
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white text-xl font-bold mb-2">Apply Online</h3>
-                  <p className="text-white/90 text-sm leading-relaxed">
-                    Check the features and apply for a Seamless Go subscription on our website.
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
+                
+                <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
+                  <h3 className="text-white text-base font-bold mb-2">Apply Online</h3>
+                  <p className="text-white text-sm leading-relaxed">
+                    Click the button to start your <br />
+                    subscription process.
                   </p>
                 </div>
+              </div>
 
-                {/* Arrow indicator */}
-                <div className="absolute bottom-6 right-6 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <svg className="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
+              {/* Arrow Prev */}
+              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
+                </svg>
               </div>
             </div>
 
-            {/* Step 2 - Initial Check */}
-            <div className="relative">
-              {/* Circle with number */}
-              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-10">
-                <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white text-2xl font-bold">2</span>
+            {/* Step 2 */}
+            <div className="relative lg:-mr-12 z-10">
+              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
+                <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+                  <span className="text-white text-sm font-bold">2</span>
                 </div>
               </div>
 
-              {/* Card */}
-              <div className="mt-12 rounded-2xl overflow-hidden shadow-lg bg-black h-[280px] relative group">
+              <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
-                  alt="Initial Check"
+                  src="/images/step2.png"
+                  alt="Apply Online"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
                 
-                {/* Content */}
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white text-xl font-bold mb-2">Initial Check</h3>
-                  <p className="text-white/90 text-sm leading-relaxed">
-                    Our team will check the availability of the product and verify your data.
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
+                
+                <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
+                  <h3 className="text-white text-base font-bold mb-2">Initial Check</h3>
+                  <p className="text-white text-sm leading-relaxed">
+                    Our team will reach out and ask <br />
+                    a view questions to understand <br />
+                    your needs.
                   </p>
                 </div>
+              </div>
 
-                {/* Arrow indicator */}
-                <div className="absolute bottom-6 right-6 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <svg className="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
+              {/* Arrow Prev */}
+              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
+                </svg>
               </div>
             </div>
 
-            {/* Step 3 - Verification Process */}
-            <div className="relative">
+            {/* Step 3*/}
+            <div className="relative lg:-mr-12 z-10">
               {/* Circle with number */}
-              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-10">
-                <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white text-2xl font-bold">3</span>
+              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
+                <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+                  <span className="text-white text-sm font-bold">3</span>
                 </div>
               </div>
 
-              {/* Card */}
-              <div className="mt-12 rounded-2xl overflow-hidden shadow-lg bg-black h-[280px] relative group">
+              <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop"
-                  alt="Verification Process"
+                  src="/images/step3.png"
+                  alt="Apply Online"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
                 
-                {/* Content */}
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white text-xl font-bold mb-2">Verification Process</h3>
-                  <p className="text-white/90 text-sm leading-relaxed">
-                    Wait for the verification process to be completed within 1x24 hours.
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
+                
+                <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
+                  <h3 className="text-white text-base font-bold mb-2">Verification Process</h3>
+                  <p className="text-white text-sm leading-relaxed">
+                    We'll review the information <br />
+                    provided to confirm your eligibility.
                   </p>
                 </div>
+              </div>
 
-                {/* Arrow indicator */}
-                <div className="absolute bottom-6 right-6 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <svg className="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
+              {/* Arrow Prev */}
+              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
+                </svg>
               </div>
             </div>
 
-            {/* Step 4 - Eligibility Review */}
-            <div className="relative">
-              {/* Circle with number */}
-              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-10">
-                <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white text-2xl font-bold">4</span>
+            {/* Step 4*/}
+            <div className="relative lg:-mr-12 z-10">
+              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
+                <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+                  <span className="text-white text-sm font-bold">4</span>
                 </div>
               </div>
 
-              {/* Card */}
-              <div className="mt-12 rounded-2xl overflow-hidden shadow-lg bg-black h-[280px] relative group">
+              <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop"
-                  alt="Eligibility Review"
+                  src="/images/step4.png"
+                  alt="Apply Online"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
                 
-                {/* Content */}
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white text-xl font-bold mb-2">Eligibility Review</h3>
-                  <p className="text-white/90 text-sm leading-relaxed">
-                    We'll process your documents and check if you're ready to subscribe.
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
+                
+                <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
+                  <h3 className="text-white text-base font-bold mb-2">Eligibility Review</h3>
+                  <p className="text-white text-sm leading-relaxed">
+                    We assess your apllication <br />
+                    before final approval.
                   </p>
                 </div>
+              </div>
 
-                {/* Arrow indicator */}
-                <div className="absolute bottom-6 right-6 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <svg className="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
+              {/* Arrow Prev */}
+              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
+                </svg>
               </div>
             </div>
 
-            {/* Step 5 - You're All Set */}
-            <div className="relative">
-              {/* Circle with number */}
-              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-10">
-                <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white text-2xl font-bold">5</span>
+            {/* Step 5*/}
+            <div className="relative lg:-mr-12 z-10">
+
+              <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
+                <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+                  <span className="text-white text-sm font-bold">5</span>
                 </div>
               </div>
 
-              {/* Card */}
-              <div className="mt-12 rounded-2xl overflow-hidden shadow-lg bg-black h-[280px] relative group">
+              <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop"
-                  alt="You're All Set"
+                  src="/images/step5.png"
+                  alt="Apply Online"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
                 
-                {/* Content */}
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white text-xl font-bold mb-2">You're All Set</h3>
-                  <p className="text-white/90 text-sm leading-relaxed">
-                    Your order is confirmed! You'll be able to manage your subscription through the app.
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
+                
+                <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
+                  <h3 className="text-white text-base font-bold mb-2">You're All Set</h3>
+                  <p className="text-white text-sm leading-relaxed">
+                    We'll notify you once <br />
+                    everything's ready to go.
                   </p>
                 </div>
+              </div>
 
-                {/* Checkmark indicator */}
-                <div className="absolute bottom-6 right-6 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
+              {/* Arrow Prev */}
+              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
+                </svg>
               </div>
             </div>
+
           </div>
         </div>
       </div>

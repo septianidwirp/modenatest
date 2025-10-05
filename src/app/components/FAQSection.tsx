@@ -67,7 +67,6 @@ export default function FAQSection() {
   return (
     <div className="w-full bg-white py-16 px-6">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <div className="flex justify-between items-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900">
             Frequently Asked Questions (FAQ)
@@ -77,9 +76,7 @@ export default function FAQSection() {
           </button>
         </div>
 
-        {/* FAQ Grid */}
         <div className="grid md:grid-cols-2 gap-6">
-          {/* Left Column */}
           <div className="space-y-4">
             {faqs.slice(0, 6).map((faq, index) => (
               <div
@@ -106,7 +103,6 @@ export default function FAQSection() {
             ))}
           </div>
 
-          {/* Right Column */}
           <div className="space-y-4">
             {faqs.slice(6).map((faq, index) => (
               <div
