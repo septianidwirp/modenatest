@@ -60,8 +60,8 @@ export default function FAQSection() {
     }
   ];
 
-  const toggleFAQ = (index) => {
-    setOpenIndex(openIndex === index ? -1 : index);
+  const toggleFAQ = (index: number) => {
+  setOpenIndex(openIndex === index ? -1 : index);
   };
 
   return (
