@@ -11,7 +11,7 @@ export default function FAQSection() {
       answer: "Seamless Go is a subscription program that lets you rent MUDA/FNA home appliances with a more affordable monthly payment. With this program, you can enjoy the subscription without worrying about routine maintenance or repair extra costs."
     },
     {
-      question: "What's included in a Seamless Go Subscription Service plan?",
+      question: "What included in a Seamless Go Subscription Service plan?",
       answer: "The subscription plan includes the appliance rental, regular maintenance, repairs, and replacement services as needed."
     },
     {

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image'
 export default function HowToSubs() {
   return (
     <section className="bg-white py-20 px-6">
@@ -22,14 +23,14 @@ export default function HowToSubs() {
               </div>
 
               <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
-                <img 
-                  src="/images/step1.png"
-                  alt="Apply Online"
-                  className="w-full h-full object-cover"
-                />
+              <Image
+                src="/images/step1.png"
+                alt="Apply Online"
+                fill
+                className="object-cover"
+              />
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
-                
                 <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
                   <h3 className="text-white text-base font-bold mb-2">Apply Online</h3>
                   <p className="text-white text-sm leading-relaxed">
@@ -37,13 +38,6 @@ export default function HowToSubs() {
                     subscription process.
                   </p>
                 </div>
-              </div>
-
-              {/* Arrow Prev */}
-              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
-                </svg>
               </div>
             </div>
 
@@ -56,11 +50,12 @@ export default function HowToSubs() {
               </div>
 
               <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
-                <img 
-                  src="/images/step2.png"
-                  alt="Apply Online"
-                  className="w-full h-full object-cover"
-                />
+                  <Image
+                    src="/images/step2.png"
+                    alt="Initial"
+                    fill
+                    className="object-cover"
+                  />
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
                 
@@ -72,13 +67,6 @@ export default function HowToSubs() {
                     your needs.
                   </p>
                 </div>
-              </div>
-
-              {/* Arrow Prev */}
-              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
-                </svg>
               </div>
             </div>
 
@@ -92,10 +80,11 @@ export default function HowToSubs() {
               </div>
 
               <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
-                <img 
-                  src="/images/step3.png"
-                  alt="Apply Online"
-                  className="w-full h-full object-cover"
+                <Image
+                    src="/images/step3.png"
+                    alt="Initial"
+                    fill
+                    className="object-cover"
                 />
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
@@ -103,17 +92,10 @@ export default function HowToSubs() {
                 <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
                   <h3 className="text-white text-base font-bold mb-2">Verification Process</h3>
                   <p className="text-white text-sm leading-relaxed">
-                    We'll review the information <br />
+                    We&apos;tll review the information <br />
                     provided to confirm your eligibility.
                   </p>
                 </div>
-              </div>
-
-              {/* Arrow Prev */}
-              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
-                </svg>
               </div>
             </div>
 
@@ -126,10 +108,11 @@ export default function HowToSubs() {
               </div>
 
               <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
-                <img 
-                  src="/images/step4.png"
-                  alt="Apply Online"
-                  className="w-full h-full object-cover"
+                <Image
+                    src="/images/step4.png"
+                    alt="Initial"
+                    fill
+                    className="object-cover"
                 />
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
@@ -141,13 +124,6 @@ export default function HowToSubs() {
                     before final approval.
                   </p>
                 </div>
-              </div>
-
-              {/* Arrow Prev */}
-              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
-                </svg>
               </div>
             </div>
 
@@ -161,10 +137,11 @@ export default function HowToSubs() {
               </div>
 
               <div className="mt-6 rounded-3xl overflow-hidden shadow-xl bg-black w-full lg:w-[300px] h-[400px] relative group">
-                <img 
-                  src="/images/step5.png"
-                  alt="Apply Online"
-                  className="w-full h-full object-cover"
+                <Image
+                    src="/images/step5.png"
+                    alt="Initial"
+                    fill
+                    className="object-cover"
                 />
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
@@ -172,13 +149,12 @@ export default function HowToSubs() {
                 <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
                   <h3 className="text-white text-base font-bold mb-2">You're All Set</h3>
                   <p className="text-white text-sm leading-relaxed">
-                    We'll notify you once <br />
+                    We&apos;tll notify you once <br />
                     everything's ready to go.
                   </p>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
