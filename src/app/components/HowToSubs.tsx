@@ -147,10 +147,10 @@ export default function HowToSubs() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
                 
                 <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
-                  <h3 className="text-white text-base font-bold mb-2">You're All Set</h3>
+                  <h3 className="text-white text-base font-bold mb-2">You are All Set</h3>
                   <p className="text-white text-sm leading-relaxed">
                     We will notify you once <br />
-                    everything's ready to go.
+                    everythings ready to go.
                   </p>
                 </div>
               </div>
