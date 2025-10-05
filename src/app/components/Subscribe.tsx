@@ -37,7 +37,7 @@ export default function Subscribe() {
         {/* Card 2 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[196px] h-[339px]">
           <Image
-            src="/images/Rectangle1.png" 
+            src="/images/subs2.png" 
             alt="Modena Staff"
             width={196}
             height={339}
@@ -48,29 +48,32 @@ export default function Subscribe() {
         {/* Card 3 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[306.6px] h-[270.77px]">
           <Image
-            src="/images/Rectangle1.png" 
+            src="/images/subs3.png" 
             alt="Subscription Price"
             width={306.6}
             height={270.77}
             className="w-full h-full object-cover"
           />
-          <div className="absolute bottom-4 left-4 bg-black/60 px-3 py-2 rounded-md">
-            <span className="text-white font-semibold text-lg">
-              Start From Rp240,000/Month
-            </span>
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white">
+            <div className="flex flex-col items-start space-y-1">
+              <span className="text-xs">Start From</span>
+              <span className="text-2xl font-bold">
+                Rp240,000/<span className="text-base font-normal">Month</span>
+              </span>
+            </div>
           </div>
         </div>
 
         {/* Card 4 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[196px] h-[339px]">
           <Image
-            src="/images/Rectangle1.png" 
+            src="/images/subs4.png" 
             alt="Seamless Care"
             width={196}
             height={339}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/30 flex items-start justify-start p-4">
+          <div className="absolute inset-0 bg-black/30 flex items-end justify-start p-4">
             <span className="text-white font-medium text-lg">
               Seamless Care: From installation to regular maintenance—all
               handled.
@@ -81,7 +84,7 @@ export default function Subscribe() {
         {/* Card 5 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[260px] h-[477.99px]">
           <Image
-            src="/images/Rectangle1.png" 
+            src="/images/subs5.png" 
             alt="Water Dispenser"
             width={260}
             height={477.99}

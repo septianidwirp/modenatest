@@ -177,13 +177,6 @@ export default function HowToSubs() {
                   </p>
                 </div>
               </div>
-
-              {/* Arrow Prev */}
-              <div className="hidden lg:flex absolute top-1/2 -right-5 -translate-y-1/2 z-30 w-10 h-10 bg-cyan-500 rounded-full items-center justify-center shadow-lg">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
-                </svg>
-              </div>
             </div>
 
           </div>

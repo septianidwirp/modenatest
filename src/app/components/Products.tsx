@@ -182,6 +182,7 @@ export default function Products() {
         </div>
 
         {/* Products Section */}
+      <div className="bg-blue-900/30 backdrop-blur-sm rounded-3xl p-8">
         <div className="text-center mb-8 relative z-10">
           <p className="text-xs text-blue-900 font-semibold mb-2 tracking-wider">OUR PRODUCTS</p>
           <h3 className="text-3xl lg:text-4xl font-bold text-white mb-1">
@@ -192,10 +193,10 @@ export default function Products() {
           </p>
         </div>
 
-        {/* Products Grid */}
+
         <div className="grid lg:grid-cols-2 gap-6 relative z-10">
           {/* Left Side */}
-          <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
+          <div className=" rounded-2xl p-6">
             <div className="space-y-4">
               <div className="flex items-center gap-4 p-4 bg-white/30 rounded-xl hover:bg-white/40 transition-colors cursor-pointer">
                 <span className="text-2xl font-bold text-white">01</span>
@@ -204,7 +205,7 @@ export default function Products() {
                   <p className="text-sm font-bold text-gray-900">MODENA Top Table</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 p-4 bg-white/20 rounded-xl hover:bg-white/30 transition-colors cursor-pointer">
+              <div className="flex items-center gap-4 p-4 rounded-xl hover:bg-white/30 transition-colors cursor-pointer">
                 <span className="text-2xl font-bold text-white/70">02</span>
                 <div className="flex-1">
                   <p className="text-xs text-blue-900 font-semibold">WATER</p>
@@ -212,7 +213,7 @@ export default function Products() {
                   <p className="text-sm font-bold text-gray-900">Osmosis 6-stage</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 p-4 bg-white/20 rounded-xl hover:bg-white/30 transition-colors cursor-pointer">
+              <div className="flex items-center gap-4 p-4 rounded-xl hover:bg-white/30 transition-colors cursor-pointer">
                 <span className="text-2xl font-bold text-white/70">03</span>
                 <div className="flex-1">
                   <p className="text-xs text-blue-900 font-semibold">WATER</p>
@@ -224,35 +225,14 @@ export default function Products() {
           </div>
 
           {/* Right Side */}
-          <div className="bg-blue-900/40 backdrop-blur-sm rounded-2xl p-6 text-white">
-            <div className="mb-6">
-              <p className="text-xs text-cyan-300 mb-2">WATER PURIFIER - RO/NON RO</p>
-              <h4 className="text-2xl font-bold mb-4">Water Purifier RO Top Table</h4>
-              <div className="flex gap-4 mb-6">
-                <div className="flex items-center gap-2 text-xs">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                    <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
-                  </svg>
-                  TDS: PureCrystal Clear
-                </div>
-                <div className="flex items-center gap-2 text-xs">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
-                  </svg>
-                  Instant Hot/Cold
-                </div>
-              </div>
-
-              <div className="bg-white/10 rounded-xl p-6 mb-6 flex justify-center">
-                <img
-                  src="https://images.unsplash.com/photo-1595514535116-2fc1b5b76e4e?q=80&w=300&auto=format&fit=crop"
-                  alt="Water Purifier"
-                  className="h-48 object-contain"
-                />
-              </div>
-            </div>
-          </div>
+          <div className="rounded-xl flex justify-center">
+      <img
+        src="/images/productbawah.png"
+        alt="Water Purifier"
+        className="w-full object-contain"
+      />
+    </div>
+        </div>
         </div>
       </div>
 
