@@ -16,9 +16,7 @@ export default function Subscribe() {
         </p>
       </div>
 
-      {/* Cards */}
       <div className="mt-10 flex flex-col md:flex-row justify-center items-end gap-6 px-4">
-        {/* Card 1 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[260px] h-[438px]">
           <Image
             src="/images/subs1.png" 
@@ -34,7 +32,6 @@ export default function Subscribe() {
           </div>
         </div>
 
-        {/* Card 2 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[196px] h-[339px]">
           <Image
             src="/images/subs2.png" 
@@ -45,7 +42,6 @@ export default function Subscribe() {
           />
         </div>
 
-        {/* Card 3 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[306.6px] h-[270.77px]">
           <Image
             src="/images/subs3.png" 
@@ -64,7 +60,6 @@ export default function Subscribe() {
           </div>
         </div>
 
-        {/* Card 4 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[196px] h-[339px]">
           <Image
             src="/images/subs4.png" 
@@ -81,7 +76,6 @@ export default function Subscribe() {
           </div>
         </div>
 
-        {/* Card 5 */}
         <div className="relative rounded-xl overflow-hidden shadow w-[260px] h-[477.99px]">
           <Image
             src="/images/subs5.png" 

@@ -70,7 +70,6 @@ export default function Products() {
             ref={scrollRef}
             className="flex gap-4 px-12 overflow-x-auto scrollbar-hide scroll-smooth"
           >
-            {/* Card 1 */}
             <div className="flex-shrink-0 w-[280px] h-[320px] rounded-2xl overflow-hidden relative group cursor-pointer">
               <img
                 src="/images/product1.png"
@@ -85,7 +84,6 @@ export default function Products() {
               </div>
             </div>
 
-            {/* Card 2 */}
             <div className="flex-shrink-0 w-[280px] h-[320px] rounded-2xl overflow-hidden relative group cursor-pointer">
               <img
                 src="/images/product2.png"
@@ -100,7 +98,6 @@ export default function Products() {
               </div>
             </div>
 
-            {/* Card 3 */}
             <div className="flex-shrink-0 w-[280px] h-[320px] rounded-2xl overflow-hidden relative group cursor-pointer">
               <img
                 src="/images/product3.png"
@@ -115,7 +112,6 @@ export default function Products() {
               </div>
             </div>
 
-            {/* Card 4 */}
             <div className="flex-shrink-0 w-[280px] h-[320px] rounded-2xl overflow-hidden relative group cursor-pointer">
               <img
                 src="/images/product4.png"
@@ -130,7 +126,6 @@ export default function Products() {
               </div>
             </div>
 
-            {/* Card 5 */}
             <div className="flex-shrink-0 w-[280px] h-[320px] rounded-2xl overflow-hidden relative group cursor-pointer">
               <img
                 src="/images/product5.png"
@@ -145,7 +140,6 @@ export default function Products() {
               </div>
             </div>
 
-            {/* Card 6 */}
             <div className="flex-shrink-0 w-[280px] h-[320px] rounded-2xl overflow-hidden relative group cursor-pointer">
               <img
                 src="/images/product6.png"
@@ -181,7 +175,6 @@ export default function Products() {
           </button>
         </div>
 
-        {/* Products Section */}
       <div className="bg-blue-900/30 backdrop-blur-sm rounded-3xl p-8">
         <div className="text-center mb-8 relative z-10">
           <p className="text-xs text-blue-900 font-semibold mb-2 tracking-wider">OUR PRODUCTS</p>
@@ -195,7 +188,6 @@ export default function Products() {
 
 
         <div className="grid lg:grid-cols-2 gap-6 relative z-10">
-          {/* Left Side */}
           <div className=" rounded-2xl p-6">
             <div className="space-y-4">
               <div className="flex items-center gap-4 p-4 bg-white/30 rounded-xl hover:bg-white/40 transition-colors cursor-pointer">
@@ -224,7 +216,6 @@ export default function Products() {
             </div>
           </div>
 
-          {/* Right Side */}
           <div className="rounded-xl flex justify-center">
       <img
         src="/images/productbawah.png"

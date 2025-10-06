@@ -14,7 +14,6 @@ export default function HowToSubs() {
         <div className="relative">
           <div className="flex flex-col lg:flex-row items-start justify-center gap-8 lg:gap-0">
             
-            {/* Step 1 */}
             <div className="relative lg:-mr-12 z-10">
               <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
                 <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
@@ -41,7 +40,6 @@ export default function HowToSubs() {
               </div>
             </div>
 
-            {/* Step 2 */}
             <div className="relative lg:-mr-12 z-10">
               <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
                 <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
@@ -70,9 +68,8 @@ export default function HowToSubs() {
               </div>
             </div>
 
-            {/* Step 3*/}
             <div className="relative lg:-mr-12 z-10">
-              {/* Circle with number */}
+
               <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
                 <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
                   <span className="text-white text-sm font-bold">3</span>
@@ -88,7 +85,6 @@ export default function HowToSubs() {
                 />
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
-                
                 <div className="absolute top-5 left-1/2 -translate-x-1/2 text-center px-5 w-[240px]">
                   <h3 className="text-white text-base font-bold mb-2">Verification Process</h3>
                   <p className="text-white text-sm leading-relaxed">
@@ -99,7 +95,6 @@ export default function HowToSubs() {
               </div>
             </div>
 
-            {/* Step 4*/}
             <div className="relative lg:-mr-12 z-10">
               <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
                 <div className="w-10 h-10 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
@@ -127,7 +122,6 @@ export default function HowToSubs() {
               </div>
             </div>
 
-            {/* Step 5*/}
             <div className="relative lg:-mr-12 z-10">
 
               <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-20">
